@@ -26,7 +26,7 @@ canvas {
   width: 804px;
   padding: 1rem;
   background-color: steelblue;
-  border: 1px solid slateblue;
+  border: 1px solid #3d5eff;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -56,4 +56,63 @@ button:hover {
 
 button:active {
   transform: scale(0.98);
+}
+
+@media (max-width: 845px) {
+  canvas {
+    width: 600px;
+    height: 400px;
+  }
+
+  .toolbox {
+    width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  canvas {
+    width: 500px;
+    height: 300px;
+  }
+  .toolbox {
+    width: 500px;
+  }
+  .toolbox>* {
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  canvas {
+    width: 450px;
+    height: 350px;
+  }
+
+  .toolbox {
+    width: 450px;
+  }
+}
+
+@media (max-width: 480px) {
+  canvas {
+    width: 350px;
+    height: 250px;
+  }
+
+  .toolbox {
+    width: 350px;
+  }
+}
+
+@media (max-width: 420px) {
+  canvas {
+    width: 300px;
+    height: 200px;
+  }
+
+  .toolbox {
+    width: 300px;
+  }
 }
