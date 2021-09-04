@@ -49,3 +49,11 @@ canvas {
 .toolbox > *:last-child {
   margin-left: auto;
 }
+
+button:hover {
+  color: red;
+}
+
+button:active {
+  transform: scale(0.98);
+}
